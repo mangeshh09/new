@@ -20,3 +20,24 @@ git remote -v //verify remote repo
 git branch  //to check the currently working branch
 git branch -m new_branch_name   //to modify the name of branch
 git push -u(upstream) origin main   //when we perform push operation next time ,only need to give "git push" command
+
+GIT BRANCH COMMANDS
+git branch  //to check the currently working branch
+git branch -m new_branch_name   //to modify the name of branch
+git checkout new_branch_name    //to change the branch
+git checkout -b new_branch_name    //to crate new branch
+git branch -d checkout    //to delete the branch
+git push origin new_branch_name //push new features into new new_branch
+
+MERGING FEATURE AND MAIN BRANCH using command line
+git diff new_branch //checking differences in current branch and another branch
+git merge branch_name //merge the current branch and another branch
+
+PULL COMMAND
+used to fetch and download content from a remote repo and immediately update the local repo to match that content
+git pull origin main 
+
+MERGE CONFLICTS
+an event that takes place when git is unable to automatically resolve differences in code between two commits
+
+
