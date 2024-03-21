@@ -1,0 +1,15 @@
+git config --global user.name "mangeshh09"
+git config --global user.email "mangeshgdj@gmail.com"
+git config --list
+
+git --version
+git clone "http/"
+cd NEW
+ls
+ls -a //shows the hidden files
+git status
+git add filename
+git add . 	//adds the all files
+git commit -m "message"
+git push origin main	// push the newly created or modified file
+
