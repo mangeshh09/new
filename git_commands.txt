@@ -41,3 +41,17 @@ MERGE CONFLICTS
 an event that takes place when git is unable to automatically resolve differences in code between two commits
 
 
+UNDOING CHANGES
+1.STAGED CHANGES (CHANGES WHICH GET ADD BUT NOT COMMITED)
+    git reset filename  //only for single file
+    git reset           //for multiple files
+
+git log // to check the commit records
+
+
+2.COMMITED CHANGES (CHANGES WHICH GET ADD AND ALSO GET COMMITED)
+    git reset HEAD~1 //for 1 commit only
+
+3.GIT CHANGES FOR MULTIPLE commits
+    git reset <hashcode>
+    git reset --hard <hashcode> //to remove the changes from the codeeditor also
