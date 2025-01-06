@@ -5,7 +5,7 @@ git config --list
 git --version
 git clone "http/"
 cd NEW
-ls
+git ls-files
 ls -a //shows the hidden files
 git status
 git add filename
