@@ -55,3 +55,6 @@ git log // to check the commit records
 3.GIT CHANGES FOR MULTIPLE commits
     git reset <hashcode>
     git reset --hard <hashcode> //to remove the changes from the codeeditor also
+
+
+chages
